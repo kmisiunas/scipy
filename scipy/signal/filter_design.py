@@ -2941,7 +2941,7 @@ def cheby1(N, rp, Wn, btype='low', analog=False, output='ba', fs=None):
         function.  Only returned if ``output='zpk'``.
     sos : ndarray
         Second-order sections representation of the IIR filter.
-        Only returned if ``output=='sos'``.
+        Only returned if ``output='sos'``.
 
     See Also
     --------
